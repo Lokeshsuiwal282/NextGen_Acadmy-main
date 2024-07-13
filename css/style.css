@@ -225,7 +225,7 @@ h6,
 --------------------------------------------------------------*/
 .hero {
     width: 100%;
-    min-height: 80vh;
+    min-height: 100vh;
     position: relative;
     padding: 80px 0 60px 0;
     display: flex;
@@ -304,6 +304,8 @@ h6,
   }
   
   .hero .animated {
+    height: 70vh;
+    background: transparent;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
   }
   
@@ -340,7 +342,15 @@ h6,
     }
   }
   
-
+  .fill-success {
+    fill: #0cbc87 !important;
+  }
+  .fill-warning {
+    fill: #f7c32e !important;
+  }
+  .fill-orange {
+    fill: #e3a774 !important;
+  }
 /*** Carousel ***/
 .carousel-caption {
     top: 0;

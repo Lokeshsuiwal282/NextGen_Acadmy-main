@@ -108,7 +108,7 @@
         <!-- Topbar End -->
 
         <!-- Navbar & Carousel Start -->
-        <div class="container-fluid position-relative p-0">
+        <div class="container-fluid position-relative p-0" style="margin: 10px 0;">
             <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand p-0"><img src="new_img/bu-nextgen-logo.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -134,19 +134,21 @@
                 </div>
             </nav>
         </div>
-
+      
          <!-- Hero Section -->
-         <section id="hero" class="hero section">
+         <section id="hero" class="hero section" data-bs-ride="carousel">
             <div class="container">
                 <div id="content1" class="row gy-4">
                     <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
                         <h5 class="fw-bold text-primary text-uppercase">Best IT Courses</h5>
                         <h1 data-aos="fade-up">Bachelor Of Computer Application</h1>
-                        <p data-aos="fade-up" data-aos-delay="100">BCA in AI & ML serves as the ultimate springboard for your career aspirations, blending the fundamentals of computer science with cutting-edge technologies that are reshaping industries worldwide.</p>
+                        <p data-aos="fade-up" data-aos-delay="100">BCA in AI & ML blends computer science fundamentals with cutting-edge technologies, launching your career into the future.</p>
                         <h6 class="text-secondary h4  fadeInUp">SPECIALISATION IN</h6>
                         <ul style="list-style-type: none;">
-                            <li>&#11166;Artificial intelligence</li>
-                            <li>&#11166;Cyber Security</li>
+                            <li>&#11166; Artificial intelligence</li>
+                            <li>&#11166; Cloud Computer & Cyber Security</li>
+                            <li>&#11166; Computer Science</li>
+                            <li>&#11166; Data Science</li>
                         </ul>
                         <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
                             <a href="https://robin.co.in/rbu-nextgen/b-tech-ai-ml/" class="btn-get-started">Explore More<i class="bi bi-arrow-right"></i></a>
@@ -154,10 +156,10 @@
                         </div>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-                        <img src="new_img/bg/B.avif" class="img-fluid animated" alt="">
+                        <img src="img\icons_image\istockphoto-1346150003-612x612.jpg" class="img-fluid animated" alt="">
                     </div>
                 </div>
-    
+                
                 <div id="content2" class="row gy-4" style="display:none;">
                     <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
                         <h5 class="fw-bold text-primary text-uppercase">Best IT Courses</h5>
@@ -165,21 +167,33 @@
                         <p data-aos="fade-up" data-aos-delay="100">B. Tech. in Artificial Intelligence, or Bachelor of Technology in Artificial Intelligence, is a four-year engineering undergraduate degree programme.</p>
                         <h6 class="text-secondary h4 fadeInUp">SPECIALISATION IN</h6>
                         <ul style="list-style-type: none;">
-                            <li>&#11166;Artificial intelligence & Machine Learning</li>
-                            <li>&#11166;Cyber Security and Information Security</li>
+                            <li>&#11166; Artificial intelligence & Machine Learning</li>
+                            <li>&#11166; Cyber Security and Information Security</li>
+                            <li>&#11166; Computer Science Engineering</li>
+                            <li>&#11166; Data Science</li>
                         </ul>
                         <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
                             <a href="https://robin.co.in/rbu-nextgen/b-tech-ai-ml/" class="btn-get-started">Explore More<i class="bi bi-arrow-right"></i></a>
                             <a href="contact.html" class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="fa fa-phone-alt me-2"></i><span>Contact Us</span></a>
                         </div>
                     </div>
+                   
                     <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-                        <img src="img\carousel-1.jpg" class="img-fluid animated" alt="">
+                        <img src="img\icons_image\istockphoto-1346150003-612x612.jpg" class="img-fluid animated" alt="">
                     </div>
-                </div>
+                </div>  
             </div>
+            <figure class="fill-warning position-absolute me-5" style="margin: -100px 800px;">
+                <svg width="42px" height="42px">
+                    <path d="M21.000,-0.001 L28.424,13.575 L41.999,20.999 L28.424,28.424 L21.000,41.998 L13.575,28.424 L-0.000,20.999 L13.575,13.575 L21.000,-0.001 Z"></path>
+                </svg>
+            </figure>
+            <figure class="fill-success position-absolute top-0" style="margin: 160px 380px;">
+                <svg width="22px" height="21px">
+                    <path d="M10.717,4.757 L14.440,-0.001 L14.215,6.023 L20.142,4.757 L16.076,9.228 L21.435,12.046 L15.430,12.873 L17.713,18.457 L12.579,15.252 L10.717,20.988 L8.856,15.252 L3.722,18.457 L6.005,12.873 L-0.000,12.046 L5.359,9.228 L1.292,4.757 L7.220,6.023 L6.995,-0.001 L10.717,4.757 Z"></path>
+                </svg>
+            </figure>
         </section>
-
         <script>
             function swapContent() {
                 const content1 = document.getElementById('content1');
@@ -195,6 +209,7 @@
     
             setInterval(swapContent, 5000); // Change content every 5 seconds
         </script>
+        
      <!-- /Hero Section -->
 
     <!-- Full Screen Search Start -->
@@ -215,47 +230,59 @@
     </div>
     <!-- Full Screen Search End -->
 
-
     <!-- Facts Start -->
-    <div class="container-fluid facts py-5 pt-lg-0">
-        <div class="container py-5 pt-lg-0">
-            <div class="row gx-0">
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
-                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
-                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                            <i class="fa fa-users text-primary"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="text-white mb-0">Total Student</h5>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">12500</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                            <i class="fa fa-check text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="text-primary mb-0">Total Faculties</h5>
-                            <h1 class="mb-0" data-toggle="counter-up">420</h1>
+    <section class="py-0 py-xl-5">
+        <div class="container-fluid facts py-5 pt-lg-0">
+            <div class="container py-5 pt-lg-0">
+                <div class="row gx-0">
+                    <div class="col-lg-3 wow zoomIn" data-wow-delay="0.1s">
+                        <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                            <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                                <i class="fa fa-users text-primary"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="text-white mb-0">Total Student</h5>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">12500</h1>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
-                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                            <i class="fa fa-award text-primary"></i>
+                    <div class="col-lg-3 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                            <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="text-primary mb-0">Total Faculties</h5>
+                                <h1 class="mb-0" data-toggle="counter-up">420</h1>
+                            </div>
                         </div>
-                        <div class="ps-4">
-                            <h5 class="text-white mb-0">Placed Student</h5>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">1500</h1>
+                    </div>
+                    <div class="col-lg-3 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                            <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                                <i class="fa fa-award text-primary"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="text-white mb-0">Placed Student</h5>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">1500</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow zoomIn" data-wow-delay="0.8s">
+                        <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                            <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="text-primary mb-0">Online Students</h5>
+                                    <h1 class="mb-0" data-toggle="counter-up">420</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Facts Start -->
 
 
@@ -279,40 +306,51 @@
                     <div class="position-relative h-100">
                         <div class="row g-0 mb-5">
                             <div class="col-sm-6 wow zoomIn hover-effect" data-wow-delay="0.2s">
-                                <div class="text-container btn-primary about_box " style="background: #307ad5;">
-                                    <i class='fas fa-user-graduate' style='font-size:55px;color:white; margin: 20px; margin-right: 20px;'></i>
-                                    <div>
-                                        <h2>7.8</h2>
-                                        <p>Average CGPA</p>
+                                <div class="d-flex  p-4 bg-warning bg-opacity-15 rounded-3"  style="margin: 10px;">
+                                  <span class="display-6 lh-1 text-warning mb-0 "> <i class='fas fa-user-graduate' style='font-size:35px;color:white;'></i></span>
+                                    <div class="ms-4 h6 fw-normal mb-0">
+                                        <div class="d-flex">
+                                            <h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="10" data-purecounter-delay="200" data-purecounter-duration="0">7.8 CGPA</h5>
+                                            <span class="mb-0 h5"></span>
+                                        </div>
+                                        <p class="mb-0">Average CGPA in College</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 wow zoomIn hover-effect" data-wow-delay="0.2s">
-                                <div class="text-container btn-primary about_box" style="background: #e948ae;">
-                                    <i class="fa fa-money" style="font-size:55px;color: white; margin: 20px; margin-right: 20px;"></i>
-                                    <div>
-                                        <h2>10 LPA</h2>
-                                        <p>Average Placement</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row g-0 mb-5">
-                            <div class="col-sm-6 wow zoomIn hover-effect" data-wow-delay="0.4s">
-                                <div class="text-container btn-primary about_box" style="background: #10c45c;">
-                                    <i class='fas fa-award' style='font-size:55px;color:white; margin: 20px; margin-right: 20px;'></i>
-                                    <div>
-                                        <h2>12+ Years</h2>
-                                        <p>Faculty with Average Years of Experience</p>
+                                <div class="d-flex  p-4 bg-blue bg-opacity-10 rounded-3" style="background: #e948ae; margin: 10px;">
+                                    <span class="display-6 lh-1 text-blue mb-0"><i class="fa fa-money" style="font-size:35px;color: white;"></i>
+                                    </i></span>
+                                    <div class="ms-4 h6 fw-normal mb-0">
+                                        <div class="d-flex">
+                                            <h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="200" data-purecounter-delay="200" data-purecounter-duration="0">10 LPA</h5>
+                                            <span class="mb-0 h5"></span>
+                                        </div>
+                                        <p class="mb-0">Average Placement</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 wow zoomIn hover-effect" data-wow-delay="0.4s">
-                                <div class="text-container btn-primary about_box" style="background: #f9bd44;">
-                                    <i class="fas fa-graduation-cap" style='font-size:55px;color:white; margin: 20px; margin-right: 20px;'></i>
-                                    <div>
-                                        <h2>100%</h2>
-                                        <p>placement otherwise fee refund plan.</p>
+                                <div class="d-flex  p-4 bg-blue bg-opacity-10 rounded-3" style="background: #10c45c; margin: 10px;">
+                                    <span class="display-6 lh-1 text-blue mb-0"> <i class='fas fa-award' style="font-size:35px;color: white;"></i></i></span>
+                                    <div class="ms-4 h6 fw-normal mb-0">
+                                        <div class="d-flex">
+                                            <h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="200" data-purecounter-delay="200" data-purecounter-duration="0">12+ Years</h5>
+                                            <span class="mb-0 h5"></span>
+                                        </div>
+                                        <p class="mb-0">Faculty with Average Years of Experience</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow zoomIn hover-effect" data-wow-delay="0.4s">
+                                <div class="d-flex  p-4 bg-blue bg-opacity-10 rounded-3" style="background: #06A3DA; margin: 10px;">
+                                    <span class="display-6 lh-1 text-blue mb-0"> <i class='fas fa-award' style="font-size:35px;color: white;"></i></i></span>
+                                    <div class="ms-4 h6 fw-normal mb-0">
+                                        <div class="d-flex">
+                                            <h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="200" data-purecounter-delay="200" data-purecounter-duration="0">100</h5>
+                                            <span class="mb-0 h5">%</span>
+                                        </div>
+                                        <p class="mb-0">placement otherwise fee refund plan.</p>
                                     </div>
                                 </div>
                             </div>
@@ -320,161 +358,12 @@
                     </div>
                 </div>
             </div>
+        </br></br>
             <marquee>Our NextGen curriculum is enriched with more than 50% of practical exposure and hands-on with industry-embedded certifications, industry visits, real-life projects, and case studies, all wrapped around emerging digital business trends and demands. </marquee>  
         </div>
     </div>
     <!-- About End -->
 
-
-     <!-- Features Start -->
-    <!-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">WHY NEXTGEN ACADEMY</h5>
-                <h1 class="mb-0">USP's of BU NextGen Courses</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <div class="wow zoomIn" data-wow-delay="0.2s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fa fa-undo" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">100%</h4>
-                        </div>
-                        <p class="mb-0">100% placement otherwise fee refund plan.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="wow zoomIn" data-wow-delay="0.4s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fa fa-line-chart" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">Specialisation</h4>
-                        </div>
-                        <p class="mb-0">Specialisation courses start from Semester-1.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="wow zoomIn" data-wow-delay="0.6s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fa fa-headphones" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">Development</h4>
-                        </div>
-                        <p class="mb-0">Career Development Centre (CDC).</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="wow zoomIn" data-wow-delay="0.8s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fa fa-headphones" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">Embedded Training</h4>
-                        </div>
-                        <p class="mb-0">towards Certifications (EXIN, AWS, GCP, Neo4j etc.).</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <div class="wow zoomIn" data-wow-delay="0.2s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fa fa-headphones" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">Industry immersion</h4>
-                        </div>
-                        <p class="mb-0">Master classes, Guest Lectures and industry immersion from industry leaders.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="wow zoomIn" data-wow-delay="0.4s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fa fa-headphones" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">Labs</h4>
-                        </div>
-                        <p class="mb-0">Physical and virtual labs.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="wow zoomIn" data-wow-delay="0.6s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fa fa-bank" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">Industry</h4>
-                        </div>
-                        <p class="mb-0">Cutting edge Industry collaborations.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="wow zoomIn" data-wow-delay="0.8s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fas fa-chalkboard-teacher" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">Training</h4>
-                        </div>
-                        <p class="mb-0">Embedded Training towards Certifications (EXIN, AWS, GCP, Neo4j etc.).</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <div class="wow zoomIn" data-wow-delay="0.2s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fas fa-book-reader" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">Mentorship</h4>
-                        </div>
-                        <p class="mb-0">Student Mentorship program with Industry practitioners & experts.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="wow zoomIn" data-wow-delay="0.4s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fas fa-book-reader" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">Curriculum</h4>
-                        </div>
-                        <p class="mb-0">Industry relevant curriculum & Research Team backed Constant Innovation in curriculum and Dynamic Syllabi.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                        <div class="wow zoomIn" data-wow-delay="0.4s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fas fa-book-reader" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">Projects</h4>
-                        </div>
-                        <p class="mb-0">Projects and case studies from real life.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="wow zoomIn" data-wow-delay="0.4s">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                                <i class="fas fa-book-reader" style="font-size:30px;color:black"></i>
-                            </div>
-                            <h4 class="ml-3" style="margin-left: 15px;">Internships</h4>
-                        </div>
-                        <p class="mb-0">Multiple Internships or research projects.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-         <!-- Features Start -->
          <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
@@ -658,91 +547,6 @@
 
    <!-- this start to course  -->
   
-   <!-- <div class="container-fluid py-5 animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-    <div class="container py-5">
-        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-            <h5 class="fw-bold text-primary text-uppercase">NEXTGEN ACADEMY</h5>
-            <h1 class="mb-0">NextGen Courses</h1>
-        </div>
-        <div class="row g-5">
-            <div class="col-lg-12 d-flex flex-wrap justify-content-center">
-                <div class="col-md-3 mb-4">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">B Tech</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>1500</small>
-                                <small class="me-3"><i class="far fa-calendar-alt text-primary me-2"></i>08 Semester</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>04 Years</small>
-                            </div>
-                            <h4 class="mb-3">Artificial Intelligence & Machine Learning</h4>
-                            <p>B. Tech. in Artificial Intelligence, or Bachelor of Technology in Artificial Intelligence, is a four-year engineering undergraduate degree programme. Artificial Intelligence's major purpose is to develop an inference engine and knowledge-based systems to solve problems as an expert.</p>
-                            <a class="text-uppercase" href="https://robin.co.in/rbu-nextgen/b-tech-ai-ml/">Read More <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">B Tech</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>500</small>
-                                <small class="me-3"><i class="far fa-calendar-alt text-primary me-2"></i>08 Semester</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>04 Years</small>
-                            </div>
-                            <h4 class="mb-3">Cloud Technology and Information Security</h4>
-                            <p>Cloud security, also known as cloud computing security, is a collection of security measures designed to protect cloud-based infrastructure, applications, and data. These measures ensure user and device authentication, data and resource access control, and data privacy protection.</p>
-                            <a class="text-uppercase" href="https://robin.co.in/rbu-nextgen/b-tech-ctis/">Read More <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4 ">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">BCA</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>750</small>
-                                <small class="me-3"><i class="far fa-calendar-alt text-primary me-2"></i>06 Semester</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>03 Years</small>
-                            </div>
-                            <h4 class="mb-3">Artificial Intelligence & Machine Learning</h4>
-                            <p>BCA in AI & ML serves as the ultimate springboard for your career aspirations, blending the fundamentals of computer science with cutting-edge technologies that are reshaping industries worldwide. The course covers topics such as ML alg., deep learning, computer vision,NLP, and robotics.</p>
-                            <a class="text-uppercase" href="https://robin.co.in/rbu-nextgen/bca-ai/">Read More <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">BCA</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>450</small>
-                                <small class="me-3"><i class="far fa-calendar-alt text-primary me-2"></i>06 Semester</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>03 Years</small>
-                            </div>
-                            <h4 class="mb-3">Cloud Technology and Information Security</h4>
-                            <p>It provides students with an in-depth understanding and practical application of information using data mining and analytics.  Cloud security, also known as cloud computing security, is a collection of security measures designed to protect cloud-based infrastructure, applications, and data.</p>
-                            <a class="text-uppercase" href="https://robin.co.in/rbu-nextgen/bca-ctis/">Read More <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
     <div class="container-fluid py-5 animate__animated animate__fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
@@ -828,6 +632,7 @@
     <!-- this end to course  -->
         
 <!-- Service Start -->
+ 
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" >
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
