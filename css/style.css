@@ -250,7 +250,7 @@ h6,
   
   .hero .btn-get-started {
     color: var(--contrast-color);
-    background: var(--accent-color);
+    background: #06A3DA ;
     font-family: var(--heading-font);
     font-weight: 500;
     font-size: 16px;
@@ -271,8 +271,8 @@ h6,
   }
   
   .hero .btn-get-started:hover {
-    color: var(--contrast-color);
-    background: color-mix(in srgb, var(--accent-color), transparent 15%);
+    color: black;
+    background: #06A3DA;
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
   }
   
