@@ -628,10 +628,10 @@ h6,
 }
 /* ########################################################## */
 .about_box {
-    display: flex; 
-    align-items: center;
-    width: 250px; 
-    height: 160px;
+    margin: -100px 800px;
+}
+.about_box1 {
+    margin: 160px 380px;
 }
 
 @media (max-width: 768px) {
@@ -666,11 +666,11 @@ h6,
         flex: 0 0 100%; /* Show 1 icon per row */
         max-width: 100%;
     }
+    .about_box1 {
+        margin: 100px 50px;
+    }
     .about_box {
-        width: 100%; 
-        height: 100px;
-        margin-top: 10px;
-
+        margin: 0 100px;
     }
 }
 
